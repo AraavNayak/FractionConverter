@@ -1,8 +1,6 @@
 // 18 July 2022 6:30pm
 //Araav Nayak
 
-package mathUtil;
-
 import java.util.Scanner;
 
 public class fractionConverter {
