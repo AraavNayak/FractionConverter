@@ -37,7 +37,7 @@ public class fractionConverter {
 		if(denominator < numerator) min = denominator;
 		int gcf = 1;		
 		
-		for(int i = 1; i < min; i++) {
+		for(int i = 1; i <= min; i++) {
 			if(numerator % i == 0 && denominator % i == 0) {
 				if(i > gcf) gcf = i;
 			}
